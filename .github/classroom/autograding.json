@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test all",
+      "setup": "sudo -H pip3 install pytest tabulate",
+      "run": "pytest main.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
